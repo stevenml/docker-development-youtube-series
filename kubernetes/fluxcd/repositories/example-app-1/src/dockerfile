@@ -1,6 +1,6 @@
 FROM python:3.7.3-alpine3.9 as base
 
-RUN pip install Flask==2.0.3
+RUN pip install Flask==2.0.3 --trusted-host pypi.org --trusted-host  files.pythonhosted.org
 
 WORKDIR /app
 COPY app.py /app/

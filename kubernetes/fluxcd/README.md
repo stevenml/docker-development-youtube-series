@@ -77,11 +77,11 @@ Then we can bootstrap it using the GitHub bootstrap method
 ```
 flux bootstrap github \
   --token-auth \
-  --owner=marcel-dempers \
+  --owner=stevenml \
   --repository=docker-development-youtube-series \
-  --path=kubernetes/fluxcd/repositories/infra-repo/clusters/dev-cluster \
+  --path=kubernetes/fluxcd/repositories/infra-repo/clusters/dev-cluster-ml-test \
   --personal \
-  --branch fluxcd-2022
+  --branch fluxcd-2024-testing
 
 flux check
 
