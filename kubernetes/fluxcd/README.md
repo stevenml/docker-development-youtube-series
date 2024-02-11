@@ -79,9 +79,9 @@ flux bootstrap github \
   --token-auth \
   --owner=stevenml \
   --repository=docker-development-youtube-series \
-  --path=kubernetes/fluxcd/repositories/infra-repo/clusters/dev-cluster-ml-test \
+  --path=kubernetes/fluxcd/repositories/infra-repo/clusters/dev-cluster-ml-test-2 \
   --personal \
-  --branch fluxcd-2024-testing
+  --branch fluxcd-2024-ml-testing-2
 
 flux check
 
